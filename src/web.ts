@@ -29,9 +29,4 @@ export class BrotherPrinterWeb
   }
 }
 
-const BrotherPrinterPlugin = new BrotherPrinterWeb();
 
-export { BrotherPrinterPlugin };
-
-import { registerWebPlugin } from '@capacitor/core';
-registerWebPlugin(BrotherPrinterPlugin);
